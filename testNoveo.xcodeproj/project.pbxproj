@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80225537290B0AE633CA3E6C /* Pods_testNoveo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4217A5A64930B61AB2BC0845 /* Pods_testNoveo.framework */; };
 		CE49C61E1EA8435C0014DA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49C61D1EA8435C0014DA67 /* AppDelegate.swift */; };
 		CE49C6201EA8435C0014DA67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49C61F1EA8435C0014DA67 /* ViewController.swift */; };
 		CE49C6231EA8435C0014DA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49C6211EA8435C0014DA67 /* Main.storyboard */; };
 		CE49C6261EA8435C0014DA67 /* testNoveo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE49C6241EA8435C0014DA67 /* testNoveo.xcdatamodeld */; };
-		CE49C6281EA8435C0014DA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE49C6271EA8435C0014DA67 /* Assets.xcassets */; };
-		CE49C62B1EA8435C0014DA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49C6291EA8435C0014DA67 /* LaunchScreen.storyboard */; };
+		CE49C6331EA8452C0014DA67 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49C6321EA8452C0014DA67 /* DataBase.swift */; };
+		CE49C6421EA84DE80014DA67 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49C6411EA84DE80014DA67 /* MenuTableViewController.swift */; };
+		CEF8EFEA1EA854EA007179F0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF8EFE91EA854EA007179F0 /* SWRevealViewController.m */; };
+		CEF8EFF61EA872F6007179F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF8EFF51EA872F6007179F0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4217A5A64930B61AB2BC0845 /* Pods_testNoveo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testNoveo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E53259B00772AFED8013576 /* Pods-testNoveo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNoveo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testNoveo/Pods-testNoveo.debug.xcconfig"; sourceTree = "<group>"; };
+		5E2E9337D6806F35A0D5E5B7 /* Pods-testNoveo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNoveo.release.xcconfig"; path = "Pods/Target Support Files/Pods-testNoveo/Pods-testNoveo.release.xcconfig"; sourceTree = "<group>"; };
 		CE49C61A1EA8435C0014DA67 /* testNoveo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNoveo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE49C61D1EA8435C0014DA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE49C61F1EA8435C0014DA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE49C6221EA8435C0014DA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE49C6251EA8435C0014DA67 /* testNoveo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testNoveo.xcdatamodel; sourceTree = "<group>"; };
-		CE49C6271EA8435C0014DA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE49C62A1EA8435C0014DA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE49C62C1EA8435C0014DA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE49C6321EA8452C0014DA67 /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		CE49C6411EA84DE80014DA67 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		CEF8EFE71EA854E9007179F0 /* testNoveo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testNoveo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEF8EFE81EA854EA007179F0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CEF8EFE91EA854EA007179F0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CEF8EFF51EA872F6007179F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80225537290B0AE633CA3E6C /* Pods_testNoveo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F20360CEE5965BADAF1FC43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E53259B00772AFED8013576 /* Pods-testNoveo.debug.xcconfig */,
+				5E2E9337D6806F35A0D5E5B7 /* Pods-testNoveo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE49C6111EA8435C0014DA67 = {
 			isa = PBXGroup;
 			children = (
 				CE49C61C1EA8435C0014DA67 /* testNoveo */,
 				CE49C61B1EA8435C0014DA67 /* Products */,
+				2F20360CEE5965BADAF1FC43 /* Pods */,
+				F402F5A2C829E887E01DA23A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,59 @@
 		CE49C61C1EA8435C0014DA67 /* testNoveo */ = {
 			isa = PBXGroup;
 			children = (
+				CE49C6341EA8455F0014DA67 /* Common */,
+				CE49C6351EA845700014DA67 /* Controllers */,
+				CE49C63D1EA84CA00014DA67 /* Frameworks */,
+			);
+			path = testNoveo;
+			sourceTree = "<group>";
+		};
+		CE49C6341EA8455F0014DA67 /* Common */ = {
+			isa = PBXGroup;
+			children = (
 				CE49C61D1EA8435C0014DA67 /* AppDelegate.swift */,
-				CE49C61F1EA8435C0014DA67 /* ViewController.swift */,
-				CE49C6211EA8435C0014DA67 /* Main.storyboard */,
-				CE49C6271EA8435C0014DA67 /* Assets.xcassets */,
-				CE49C6291EA8435C0014DA67 /* LaunchScreen.storyboard */,
+				CE49C6321EA8452C0014DA67 /* DataBase.swift */,
+				CEF8EFF51EA872F6007179F0 /* Assets.xcassets */,
 				CE49C62C1EA8435C0014DA67 /* Info.plist */,
 				CE49C6241EA8435C0014DA67 /* testNoveo.xcdatamodeld */,
 			);
-			path = testNoveo;
+			name = Common;
+			sourceTree = "<group>";
+		};
+		CE49C6351EA845700014DA67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE49C61F1EA8435C0014DA67 /* ViewController.swift */,
+				CE49C6411EA84DE80014DA67 /* MenuTableViewController.swift */,
+				CE49C6211EA8435C0014DA67 /* Main.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CE49C63D1EA84CA00014DA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE49C63E1EA84CAB0014DA67 /* SWRevealViewController */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE49C63E1EA84CAB0014DA67 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8EFE81EA854EA007179F0 /* SWRevealViewController.h */,
+				CEF8EFE91EA854EA007179F0 /* SWRevealViewController.m */,
+				CEF8EFE71EA854E9007179F0 /* testNoveo-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		F402F5A2C829E887E01DA23A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4217A5A64930B61AB2BC0845 /* Pods_testNoveo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE49C62F1EA8435C0014DA67 /* Build configuration list for PBXNativeTarget "testNoveo" */;
 			buildPhases = (
+				CF26DDDA69CA3D9F9ACC013C /* [CP] Check Pods Manifest.lock */,
 				CE49C6161EA8435C0014DA67 /* Sources */,
 				CE49C6171EA8435C0014DA67 /* Frameworks */,
 				CE49C6181EA8435C0014DA67 /* Resources */,
+				B655C0D8739C1B7A3AE4A807 /* [CP] Embed Pods Frameworks */,
+				3FCCF68A8E913B95D50521CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +169,7 @@
 					CE49C6191EA8435C0014DA67 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = BN58635U8R;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,13 +197,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE49C62B1EA8435C0014DA67 /* LaunchScreen.storyboard in Resources */,
-				CE49C6281EA8435C0014DA67 /* Assets.xcassets in Resources */,
+				CEF8EFF61EA872F6007179F0 /* Assets.xcassets in Resources */,
 				CE49C6231EA8435C0014DA67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FCCF68A8E913B95D50521CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testNoveo/Pods-testNoveo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B655C0D8739C1B7A3AE4A807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testNoveo/Pods-testNoveo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF26DDDA69CA3D9F9ACC013C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE49C6161EA8435C0014DA67 /* Sources */ = {
@@ -142,7 +259,10 @@
 			files = (
 				CE49C6261EA8435C0014DA67 /* testNoveo.xcdatamodeld in Sources */,
 				CE49C6201EA8435C0014DA67 /* ViewController.swift in Sources */,
+				CE49C6421EA84DE80014DA67 /* MenuTableViewController.swift in Sources */,
+				CE49C6331EA8452C0014DA67 /* DataBase.swift in Sources */,
 				CE49C61E1EA8435C0014DA67 /* AppDelegate.swift in Sources */,
+				CEF8EFEA1EA854EA007179F0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,14 +277,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CE49C6291EA8435C0014DA67 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE49C62A1EA8435C0014DA67 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -172,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -209,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -223,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -254,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -265,26 +379,37 @@
 		};
 		CE49C6301EA8435C0014DA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E53259B00772AFED8013576 /* Pods-testNoveo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BN58635U8R;
 				INFOPLIST_FILE = testNoveo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.testNoveo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testNoveo/testNoveo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CE49C6311EA8435C0014DA67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2E9337D6806F35A0D5E5B7 /* Pods-testNoveo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BN58635U8R;
 				INFOPLIST_FILE = testNoveo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.testNoveo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testNoveo/testNoveo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -308,6 +433,7 @@
 				CE49C6311EA8435C0014DA67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
